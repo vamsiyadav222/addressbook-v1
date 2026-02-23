@@ -518,8 +518,8 @@
  <distributionManagement>
     <repository>
         <id>central</id>
-        <name>a0mtonokjoolg-artifactory-primary-0-releases</name>
-        <url>https://devopsdemotrial.jfrog.io/artifactory/test-libs-release</url>
+        <name>mt-frontend-ep-demo-libs-release-releases</name>
+        <url>https://vamsimattepu.jfrog.io/artifactory/demo-libs-release</url>
     </repository>
 </distributionManagement>
 </project>

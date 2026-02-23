@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <username>dnvsraj@rediffmail.com</username>
-      <password>cmVmdGtuOjAxOjE3ODY1MDA4MDQ6MVRoeWFvM2V2b040MEgycVg3YkJzb3lUNlNl</password>
+      <username>vmattepu@republicservices.com</username>
+      <password>eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJMYVkyZ3NKa1FncS03bFRjM09NUWNuSHE0WnJ0SXRaUWg0aElDLXgxNzd3In0.eyJpc3MiOiJqZnJ0QDAxa2oyNnhxanRldmEzMHI2cTN5amIwaGRnL3VzZXJzL3ZtYXR0ZXB1QHJlcHVibGljc2VydmljZXMuY29tIiwic3ViIjoiamZydEAwMWtqMjZ4cWp0ZXZhMzByNnEzeWpiMGhkZy91c2Vycy92bWF0dGVwdUByZXB1YmxpY3NlcnZpY2VzLmNvbSIsInNjcCI6ImFwcGxpZWQtcGVybWlzc2lvbnMvdXNlciIsImF1ZCI6ImpmcnRAMDFrajI2eHFqdGV2YTMwcjZxM3lqYjBoZGciLCJpYXQiOjE3NzE4NTkxNzksImp0aSI6ImU3YTVhMDE4LWE2OWMtNGUyYi05NWYzLTllMWNjNzFlOWM5YiJ9.cdvQQyL34-GYuGkuv1UWZuZqpYdLN1HDe7BJpKLjUHI05ZfWEmylXgMjmCHUOc7jECpJKDuzi23zNo-7Ruf3lHquAlOgD-wsiPLJ2DMV3NxjGuc2K3fhxejcibqxQUSXZ17bxyXCn4RaVI1oREeRuxSkau-GUHh7-YJUPAGSVU50lY14oYC59638GHsgUUv-S8LB-CML9TQLPz4d3bcZtJN9KRf4mooj4M4pxbaOVpPsbMdPzpgJl-c7uwa_wp5FZawtyrhghb-9bo2qcRwRtfGL_JUlYJlS8RiUR88-4X9XLaGdv9wFFQOGRblQ23iCc6b_Au0Hb2WHH30SNoVmbQ</password>
       <id>central</id>
     </server>
     <server>
-      <username>dnvsraj@rediffmail.com</username>
-      <password>cmVmdGtuOjAxOjE3ODY1MDA4MDQ6MVRoeWFvM2V2b040MEgycVg3YkJzb3lUNlNl</password>
+      <username>vmattepu@republicservices.com</username>
+      <password>eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJMYVkyZ3NKa1FncS03bFRjM09NUWNuSHE0WnJ0SXRaUWg0aElDLXgxNzd3In0.eyJpc3MiOiJqZnJ0QDAxa2oyNnhxanRldmEzMHI2cTN5amIwaGRnL3VzZXJzL3ZtYXR0ZXB1QHJlcHVibGljc2VydmljZXMuY29tIiwic3ViIjoiamZydEAwMWtqMjZ4cWp0ZXZhMzByNnEzeWpiMGhkZy91c2Vycy92bWF0dGVwdUByZXB1YmxpY3NlcnZpY2VzLmNvbSIsInNjcCI6ImFwcGxpZWQtcGVybWlzc2lvbnMvdXNlciIsImF1ZCI6ImpmcnRAMDFrajI2eHFqdGV2YTMwcjZxM3lqYjBoZGciLCJpYXQiOjE3NzE4NTkxNzksImp0aSI6ImQ0MDc4NzFjLTBjYzUtNDkwNC1hOTdlLTcwMTMxYmVlYjg4MyJ9.QBFvKGDIJwEKXJ5GPhSoQ_32q71NDFIU0WuMqVVMvVru9L-i_uF9hS5d2btC2UYant4L7FNAi7l89baDrx5e5vfEzYe7nnc0qAl5bKRLlNnnwGEZUo5BOiSajDPIhZ2uitbQ2m7a-gI5g7flpEzV3B6dvvzMLb_yt2tDpfQ_2KQijtjaXuWZssKv1NEwuh_NgX8LIzE7wN0QRJnBdLupwU6pLU7mUK4ZA7D2Fmei5WWhe3H-e_tgFu05rhtosTreHyo8vwwlqQAxao3lKWS-uwvbMfDzWS4v2G6FingoKYYLOPvxNgBKjb1VjfmsDHyWx3HUcD-L1-rM_6AK6tgOjg</password>
       <id>snapshots</id>
     </server>
   </servers>
@@ -21,14 +21,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>test-libs-release</name>
-          <url>https://devopsdemotrial.jfrog.io/artifactory/test-libs-release</url>
+          <name>demo-libs-release</name>
+          <url>https://vamsimattepu.jfrog.io/artifactory/demo-libs-release</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
-          <name>test-libs-snapshot</name>
-          <url>https://devopsdemotrial.jfrog.io/artifactory/test-libs-snapshot</url>
+          <name>demo-libs-snapshot</name>
+          <url>https://vamsimattepu.jfrog.io/artifactory/demo-libs-snapshot</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -37,14 +37,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>test-libs-release</name>
-          <url>https://devopsdemotrial.jfrog.io/artifactory/test-libs-release</url>
+          <name>demo-libs-release</name>
+          <url>https://vamsimattepu.jfrog.io/artifactory/demo-libs-release</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
-          <name>test-libs-snapshot</name>
-          <url>https://devopsdemotrial.jfrog.io/artifactory/test-libs-snapshot</url>
+          <name>demo-libs-snapshot</name>
+          <url>https://vamsimattepu.jfrog.io/artifactory/demo-libs-snapshot</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
