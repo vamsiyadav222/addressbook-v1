@@ -1,0 +1,36 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('compile') {
+            steps {
+                echo 'compile the code'
+            }
+        }
+        stage('Review the code') {
+            steps {
+                echo 'Review the code with pmd'
+            }
+        }
+        stage('UnitTest') {
+            steps {
+                echo 'Test the code with junit'
+            }
+        }
+        stage('Review') {
+            steps {
+                echo 'Review the code'
+            }
+        }
+        stage('package') {
+            steps {
+                echo 'package the code'
+            }
+        }
+        stage('publish') {
+            steps {
+                echo 'publish the code'
+            }
+        }
+    }
+}
