@@ -38,6 +38,13 @@ pipeline {
             }
         }
         stage('publish') {
+            input{
+                message "Select the platform to deploy"
+                ok "platform selected"
+                parameters{
+                    choice(name:'NEWAPP',choices:['EKS','EC2','On-prem'])
+                }
+            }
             steps {
                 echo 'publish the code'
             }
